@@ -3,6 +3,7 @@ library(shiny)
 library(leaflet)
 library(maps)
 library(dplyr)
+library(magrittr)
 
 
 
