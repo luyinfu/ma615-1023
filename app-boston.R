@@ -45,7 +45,8 @@ ui <- fluidPage(
         ),
 
         mainPanel(
-            leafletOutput(outputId = "mymap")
+            leafletOutput(outputId = "mymap"),
+            width = 12
         )
     )
 )
